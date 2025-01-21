@@ -1,0 +1,145 @@
+/* Variáveis de cores */
+:root {
+  --black: #000000;
+  --dark-green: #0036443d;
+  --light-blue: #008fb362;
+  --dark-blue: #00647e;
+  --very-dark-blue: #021e269c;
+  --white: #ffffff;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: var(--white);
+    line-height: 1.6;
+    background: url('https://i.ibb.co/N92JkZq/foto1.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    /*Dominando Docker*/
+    h1 {
+      font-size: 48px;
+      text-shadow: 
+      2px 2px 0 black, 
+     -2px 2px 0 black, 
+      2px -2px 0 black, 
+     -2px -2px 0 black; /* Contorno simulado */
+    }
+      
+    a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #008fb35e; /* Cor de fundo */
+      color: #fff; /* Cor do texto */
+      text-decoration: none; /* Remove o sublinhado */
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px; /* Cantos arredondados */
+      transition: background-color 0.3s ease;
+    }
+    a:hover {
+      background-color: #00ccff; /* Cor ao passar o mouse */
+    }
+  
+    
+/* Estilo para a imagem do livro */
+.livro {
+  max-width: 200px; /* Ajusta o tamanho da imagem */
+  margin: 1rem 0;
+  border: 2px solid var(--dark-green);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.651);
+}
+/*Domine as ferramentas de TI com esse guia completos*/
+h2 {
+  font-family: 'Arial', sans-serif;
+  color: width(255, 255, 255); /* Cor interna do texto */
+  text-shadow: 
+  2px 2px 0 black, 
+ -2px 2px 0 black, 
+  2px -2px 0 black, 
+ -2px -2px 0 black; /* Contorno simulado */
+}
+
+
+/*body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: var(--white);
+  background-color: var(--very-dark-blue);
+  line-height: 1.6;
+}*/
+/* Ajusta a imagem para cobrir toda a área */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: var(--dark-green);
+  padding: 1rem 0;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.header nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.header .btn {
+  background-color: var(--light-blue);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(var(--dark-green), var(--light-blue));
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero .btn {
+  background-color: var(--dark-blue);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.sobre, .depoimentos, .autor {
+  padding: 2rem 0;
+}
+
+.sobre {
+  background-color: var(--very-dark-blue);
+}
+
+.depoimentos {
+  background-color: var(--dark-green);
+}
+
+.depoimentos .card {
+  background-color: var(--dark-blue);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: var(--black);
+}}
