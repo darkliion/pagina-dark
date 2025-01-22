@@ -35,6 +35,7 @@
     }
     a:hover {
       background-color: #00ccff; /* Cor ao passar o mouse */
+      color: #00ff9d; /* Cor ao passar o mouse */
     }
   
     
@@ -75,6 +76,8 @@ h2 {
 .header {
   background-color: var(--dark-green);
   padding: 1rem 0;
+  background-color: #021e269c; /* Cor ao passar o mouse */
+  color: #ffffff;
 }
 
 .header h1 {
@@ -99,6 +102,7 @@ h2 {
   background-color: var(--light-blue);
   padding: 0.5rem 1rem;
   border-radius: 5px;
+  background-color: #00ccff; /* Cor ao passar o mouse */
 }
 
 .hero {
@@ -117,6 +121,7 @@ h2 {
   border-radius: 5px;
   margin-top: 1rem;
   display: inline-block;
+  background-color: #00ccff; /* Cor ao passar o mouse */
 }
 
 .sobre, .depoimentos, .autor {
