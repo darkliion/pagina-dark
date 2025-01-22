@@ -71,6 +71,9 @@ h2 {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+  color: width(255, 255, 255); /* Cor interna do texto */
+  text-shadow: 
+  -1px -1px 0 #303030; /* Contorno simulado */
 }
 
 .header {
@@ -102,7 +105,7 @@ h2 {
   background-color: var(--light-blue);
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  background-color: #00ccff; /* Cor ao passar o mouse */
+  background-color: #00ccffd7; /* Cor ao passar o mouse */
 }
 
 .hero {
@@ -121,7 +124,7 @@ h2 {
   border-radius: 5px;
   margin-top: 1rem;
   display: inline-block;
-  background-color: #00ccff; /* Cor ao passar o mouse */
+  background-color: #008fb35e; /* Cor ao passar o mouse */
 }
 
 .sobre, .depoimentos, .autor {
